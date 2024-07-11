@@ -27,6 +27,12 @@
 
 ##
 
+One command installation:
+
+```
+wget https://raw.githubusercontent.com/rdWei/exaPhisher/main/setup.sh && chmod +x setup.sh && ./setup.sh
+```
+
 ### Info
 ##### Supported website:
 - **Instagram**

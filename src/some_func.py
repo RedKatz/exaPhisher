@@ -63,23 +63,16 @@ else:
     choice2 = '''
 '''+bcolors.OKGREEN+'''〈'''+bcolors.OKBLUE+'''choose host service '''+bcolors.OKGREEN+'''〉
 
-'''+square_1_host+bcolors.WARNING+''' (raccomanded)'''+bcolors.ENDC+'''
-'''+square_2_host+bcolors.WARNING+'''
-'''+square_3_host+bcolors.WARNING+''' (raccomanded, graphical cli bugs)'''+bcolors.ENDC+'''
+'''+square_1_host+bcolors.WARNING+''' not working'''+bcolors.ENDC+'''
+'''+square_2_host+bcolors.WARNING+''' not working
+'''+square_3_host+bcolors.WARNING+''' '''+bcolors.ENDC+'''
 '''
 def banner():
-    print(bcolors.WARNING+'''
-                      '''+bcolors.OKGREEN+'''______ _     _     _          '''+bcolors.WARNING+'''              
-                      '''+bcolors.OKGREEN+'''| ___ \ |   (_)   | |              '''+bcolors.WARNING+'''             
-         _____  ____ _'''+bcolors.OKGREEN+'''| |_/ / |__  _ ___| |__   ___ _ __'''+bcolors.WARNING+''' 
-        / _ \ \/ / _` '''+bcolors.OKGREEN+'''|  __/| '_ \| / __| '_ \ / _ \ '__|'''+bcolors.WARNING+'''
-       |  __/>  < (_| '''+bcolors.OKGREEN+'''| |   | | | | \__ \ | | |  __/ |'''+bcolors.WARNING+'''   
-        \___/_/\_\__,_'''+bcolors.OKGREEN+'''\_|   |_| |_|_|___/_| |_|\___|_|'''+bcolors.WARNING+'''   
+    print(bcolors.WARNING+'''┏┓┏┓┏┳┓┳┳┏┓
+┗┓┣  ┃ ┃┃┃┃
+┗┛┗┛ ┻ ┗┛┣┛
 
-  '''+square_version+bcolors.OKGREEN+''' ╍'''+bcolors.OKBLUE+''' Phishing tool by @RedKatz '''+bcolors.OKGREEN+'''╍
+'''+square_version+bcolors.OKGREEN+''' ╍'''+bcolors.OKBLUE+''' Phishing tool by github.com/rdwei '''+bcolors.OKGREEN+'''╍
 
-  '''     +bcolors.ENDC+bcolors.BG_RED+''':: Disclaimer: Developers assumes no liability and are not   ::'''+bcolors.ENDC+'''
-  '''     +bcolors.BG_RED+''':: responsible for any misuse or damage caused by exaPhisher ::'''+bcolors.ENDC+
-
-  
-''' ''')
+'''+bcolors.ENDC+bcolors.BG_RED+''':: Developers assumes no liability and are not ::'''+bcolors.ENDC+'''
+''')
